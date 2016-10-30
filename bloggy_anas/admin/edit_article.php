@@ -17,7 +17,7 @@ $tab=$res->fetch(PDO::FETCH_ASSOC);
                         <h2 class="page-title">Rediger votre Article</h2>
                         <form class="form-horizontal col-xs-8" action="edit_action_article.php" method="POST">
                             <div class="row">
-                                 <div class="form-group">
+                                 <div class="form-group" style="display:none;">
 
                                     <label class="col-sm-2 control-label" for=
                                     "subject">id:<?php echo $tab['id'] ?></label>
